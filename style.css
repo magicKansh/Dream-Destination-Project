@@ -4,8 +4,20 @@ body {
 h1 {
     font-family: 'Franklin Gothic Medium';
     color: rgb(77, 60, 60);
+    font-style: italic;
+    font-stretch:expanded;
+    font-size: large;
+    /* Extra was toying around with various styling functions for the header */
 }
 body {
     font-family: 'Lucida Sans Unicode';
     color: rgb(148, 123, 123);
+}
+a {
+    color:burlywood;
+    text-decoration:none;
+}
+a:hover{
+    color:bisque;
+    text-decoration:line-through;
 }
